@@ -7,7 +7,8 @@
       src="https://kit.fontawesome.com/9769708619.js"
       crossorigin="anonymous"
     ></script>
-    <title>Chat</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Chat │ Kakao Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -25,76 +26,73 @@
     </div>
     <header class="header">
       <div class="header__header-column">
-        <div class="header__back-btn">
-          <a href="index.html">
-            <i class="fas fa-arrow-left fa-2x"></i>
-          </a>
-          <h1 class"header__title">코니</h1>
-        </div>
+        <a href="index.html" class="header__back-btn">
+          <i class="fas fa-arrow-left"></i>
+        </a>
+        <h1 class="header__title">코니</h1>
       </div>
-      <div class="header__header-column"></div>
-      <span class="header__icon">
-        <i class="fas fa-search"></i>
-      </span>
-      <div class="header__icon">
-        <i class="fas fa-bars"></i>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-bars"></i>
+        </span>
       </div>
     </header>
     <main class="chat">
-        <ul class="chat__messages">
-            <span class="chat__timestamp">
-                Friday, April 24, 2019
-            </span>
-            <li class="incoming-message message">
-                <img src="image/cony.jpg" class="g-avartar message__avartar" />
-                <div class="message__content">
-                    <span class="message_author">코니</span>
-                    <div class="message_bubble">
-                        누나 안뇽
-                    </div>
-                </div>
-                <span class="meesage__timestamp">
-                </span>
-            </li>
-            <li class="incoming-message message">
-                <img src="image/cony.jpg" class="g-avartar message__avartar" />
-                <div class="message__content">
-                    <span class="message_author">코니</span>
-                    <div class="message_bubble">
-                        ㅎㅇㅎㅇ
-                    </div>
-                </div>
-                <span class="meesage__timestamp">
-                </span>
-            </li>
-            <li class="incoming-message message">
-                <img src="image/cony.jpg" class="g-avartar message__avartar" />
-                <div class="message__content">
-                    <span class="message_author">코니</span>
-                    <div class="message_bubble">
-                        누나 머해
-                    </div>
-                </div>
-                <span class="meesage__timestamp">
-                </span>
-            </li>
-        </ul>
+      <ul class="chat__messages">
+        <span class="chat__timestamp">
+          Friday, April 24, 2019
+        </span>
+        <li class="incoming-message message">
+          <img src="image/cony.jpg" class="g-avartar message__avartar" />
+          <div class="message__content">
+            <span class="message_author">코니</span>
+            <div class="message_bubble">
+              누나 안뇽
+            </div>
+          </div>
+          <span class="meesage__timestamp"> </span>
+        </li>
+        <li class="incoming-message message">
+            <div class="message_bubble">
+              ㅎㅇㅎㅇ
+            </div>
+          </div>
+          <span class="meesage__timestamp"> </span>
+        </li>
+        <li class="incoming-message message">
+          <img src="image/cony.jpg" class="g-avartar message__avartar" />
+          <div class="message__content">
+            <span class="message_author">코니</span>
+            <div class="message_bubble">
+              누나 머해
+            </div>
+          </div>
+          <span class="meesage__timestamp"> </span>
+        </li>
+      </ul>
     </main>
     <div class="chat__write">
-        <div class="chat__write-column">
-            <i class="far fa-plus-square"></i>
-        </div>
-        <div class="chat__write-column">
-            <input type="text" placeholder="Send message" class="chat__write-input" />
-        </div>
-        <div class="chat__write-column">
-            <span class="chat__write-icon">
-                <i class="far fa-smile-wink"></i>
-            </span>
-            <span class="chat__write-icon">
-                <i class="fas fa-microphone"></i>
-            </span>
-        </div>
+      <div class="chat__write-column">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="chat__write-column">
+        <input
+          type="text"
+          placeholder="Send message"
+          class="chat__write-input"
+        />
+      </div>
+      <div class="chat__write-column">
+        <span class="chat__write-icon">
+          <i class="far fa-smile-wink"></i>
+        </span>
+        <span class="chat__write-icon">
+          <i class="fas fa-microphone"></i>
+        </span>
+      </div>
     </div>
   </body>
 </html>
