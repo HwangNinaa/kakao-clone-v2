@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Chat │ Kakao Clone</title>
   </head>
-  <body>
+  <body class="chats__body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
@@ -40,7 +40,7 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">
           Friday, April 24, 2019
@@ -48,27 +48,28 @@
         <li class="incoming-message message">
           <img src="image/cony.jpg" class="g-avatar message__avatar" />
           <div class="message__content">
-            <span class="message_author">코니</span>
-            <div class="message_bubble">
+            <span class="message_bubble">
               누나 안뇽
-            </div>
+            </span>
+            <span class="message_author">코니</span>
           </div>
           <span class="meesage__timestamp"> </span>
         </li>
-        <li class="incoming-message message">
-            <div class="message_bubble">
+        <li class="sent-message message">
+          <div class="message__content">
+            <span class="message_bubble">
               ㅎㅇㅎㅇ
-            </div>
+            </span>
           </div>
           <span class="meesage__timestamp"> </span>
         </li>
         <li class="incoming-message message">
           <img src="image/cony.jpg" class="g-avatar message__avatar" />
           <div class="message__content">
-            <span class="message_author">코니</span>
-            <div class="message_bubble">
+            <span class="message_bubble">
               누나 머해
-            </div>
+            </span>
+            <span class="message_author">코니</span>
           </div>
           <span class="meesage__timestamp"> </span>
         </li>
