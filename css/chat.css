@@ -20,7 +20,7 @@
 }
 
 .chats__body {
-  background-image: url("../image/chatbackground.png");
+  background-color: #aabfce;
   min-height: 150vh;
 }
 
@@ -133,14 +133,14 @@
   margin-bottom: 20px;
 }
 
-@keyframes spin {
+/*@keyframes spin {
   from {
     transform: none;
   }
   to {
     transform: rotateY(1turn);
   }
-}
+}*/
 
 .incoming-message img {
   width: 30px;
@@ -172,13 +172,13 @@
 }
 
 .incoming-message .message_author {
-  margin-top: 25px;
+  margin-bottom: 10px;
   display: block;
   font-weight: 600;
   font-size: 12px;
 }
 
-.incoming-message .message_bubble {
+/*.incoming-message .message_bubble {
   border-bottom-left-radius: 0px;
   background-image: linear-gradient(to right, #d9a7c7, #fffcdc);
 }
@@ -186,6 +186,15 @@
 .sent-message .message_bubble {
   border-bottom-right-radius: 0px;
   background-image: linear-gradient(to right, #be93c5, #7bc6cc);
+}*/
+.incoming-message .message_bubble {
+  border-bottom-left-radius: 0px;
+  background-color: #fdfdfd;
+}
+
+.sent-message .message_bubble {
+  border-bottom-right-radius: 0px;
+  background-color: #ffe402;
 }
 
 @keyframes incomingAnim {
